@@ -1,0 +1,40 @@
+.decor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 270px;
+  margin: 0px auto 0;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.label input {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #79b6da;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+}
+
+.buttonSubmit {
+  margin-top: 15px;
+  background: #79b6da;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+   cursor: pointer;
+}
